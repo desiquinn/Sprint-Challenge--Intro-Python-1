@@ -44,9 +44,9 @@ def cityreader(cities=[]):
 cityreader(cities)
 
 # Print the list of cities (name, lat, lon), 1 record per line.
-# for c in cities:
-#     print(c)
-print(cities[1].name)
+for c in cities:
+    print(c)
+# print(cities[1].name)
 # STRETCH GOAL!
 #
 # Allow the user to input two points, each specified by latitude and longitude.
@@ -80,8 +80,8 @@ print(cities[1].name)
 coord1 = input("Enter Lat1, Lon1: ").split(",")
 coord2 = input("Enter Lat2, Lon2: ").split(",")
 
-print(coord1)
-print(coord2)
+# print(coord1)
+# print(coord2)
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
     # within will hold the cities that fall within the specified region
